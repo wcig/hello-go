@@ -1,3 +1,3 @@
 # hello-go
 start study go
-ok.
+ok, let's go.
