@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	_ "github.com/go-sql-driver/mysql"
+)
 
 func main() {
 	fmt.Println("Hello World.")
