@@ -1,7 +1,7 @@
 package api
 
 type request struct {
-	Url string
+	Url    string
 	Method string
 	Params map[string]string
 }
@@ -15,5 +15,5 @@ func New() *request {
 }
 
 func (r *request) SetQueryParams(params map[string]string) *request {
-	return
+	return nil
 }
